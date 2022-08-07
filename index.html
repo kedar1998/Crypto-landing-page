@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tailwindcss Starter</title>
+</head>
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <div class="relative bg-black flex justify-between">
+
+        <nav class=" flex items-center justify-between px-4 text-white container max-w-7xl mx-auto py-6">
+            <div class=" border-r pr-12">
+                <img src="./assets/white-logo.png" alt="" class=" h-8 md:h-12">
+            </div>
+            <div class="hidden md:flex justify-between space-x-10">
+                <a href="#">Apps</a>
+                <a href="#">DAO</a>
+                <a href="#">Technology</a>
+                <a href="#">Token</a>
+                <a href="#">Contributors</a>
+            </div>
+            <div class="hidden md:flex">
+                <button class="bg-primary px-5 py-2 rounded-lg">But 1 Token</button>
+            </div>
+
+            <!-- HAMBURGER BUTTON -->
+            <div class="md:hidden mr-5">
+                <button id="menu-btn" class="hamburger">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-middle"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MENU -->
+        <div id="menu" class="hidden  absolute top-28 right-2 left-2 py-6 bg-primary text-white flex flex-col items-center justify-center space-y-6 rounded-xl">
+                <a href="#">Apps</a>
+                <a href="#">DAO</a>
+                <a href="#">Technology</a>
+                <a href="#">Token</a>
+                <a href="#">Contributors</a>
+        </div>
+
+    </div>
+
+
+
+    <!-- MAIN SECTION -->
+
+    <section id="main" class="h-screen">
+        
+        <div class="container max-w-7xl mx-auto text-white max-w-3xl flex flex-col items-center pt-96 md:pt-28 px-2 space-y-16">
+            <h1 class="font-bold text-4xl md:text-7xl text-center">Let's build a better tomorrow, together</h1>
+            <h3 class="text-center">Buy 1 Token. Join the DAO. Change the world</h3>
+            <button class=" bg-primary px-8 py-3 rounded-xl text-xl hover:shadow-2xl ">Request Early Access</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
